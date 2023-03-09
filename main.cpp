@@ -89,6 +89,8 @@ private:
 
 int main() {
     ThreadPool pool(4);
+    cout << "Type a number and enter:" << endl;
+    cout << "(0 to exit)" << endl;
 
     while (true) {
         int num;
